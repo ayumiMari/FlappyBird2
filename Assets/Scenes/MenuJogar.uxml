@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Imagens/sprites/FundoMenu.jpg?fileID=2800000&amp;guid=78a87a05acc266b47a0b095a79a3f7d7&amp;type=3#FundoMenu&quot;); -unity-background-scale-mode: scale-and-crop;">
+        <ui:Button text="Vermelho" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" style="color: rgb(255, 255, 255); background-color: rgb(250, 0, 0);" />
+        <ui:Button text="Azul" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+</ui:UXML>

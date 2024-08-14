@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 172cef4a35b77d846b77f694111d2197
+guid: 363a66eef239da547a1b936ad978d068
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - FlappyBirdy
+  - Star Work
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

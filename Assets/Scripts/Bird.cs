@@ -6,7 +6,7 @@ public class Bird : MonoBehaviour
 {
     public UIScript cm;
     [SerializeField]
-    private float velocidade = 3;
+    private float velocidade = 2;
     //cria a variavel fisica do tipo Rigidbody
     Rigidbody2D fisica;
     

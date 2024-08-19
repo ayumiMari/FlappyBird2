@@ -28,8 +28,10 @@ public class Bird : MonoBehaviour
     }
     //método que impulsiona nosso pássaro
     private void Impulsionar(){
-    //adiciona a variável física e o método AddForce, adicionando uma força para cima do tipo impulso
+        this.fisica.velocity = Vector2.zero;
+        //adiciona a variável física e o método AddForce, adicionando uma força para cima do tipo impulso
         this.fisica.AddForce(Vector2.up * velocidade, ForceMode2D.Impulse);
+    
     }
 
     void OnTriggerEnter2D(Collider2D other)
